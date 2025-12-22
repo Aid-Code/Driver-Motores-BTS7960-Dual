@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 10.07,
+          "width": 8.29
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -463,13 +463,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Electronianos_Lib"
+    ],
     "pinned_symbol_libs": [
       "Electronianos_Lib"
     ]
   },
   "meta": {
-    "filename": "driver_bts7960.kicad_pro",
+    "filename": "driver_bts7960_v1.kicad_pro",
     "version": 3
   },
   "net_settings": {

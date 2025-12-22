@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "driver_bts7960.kicad_prl",
+    "filename": "driver_bts7960_v1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
