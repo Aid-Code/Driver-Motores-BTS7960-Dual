@@ -681,7 +681,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -701,8 +701,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -733,7 +733,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -766,10 +766,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -812,6 +812,17 @@
 					)
 				)
 				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 3.81 2.667)
 					(end 2.54 2.413)
 					(stroke
@@ -836,6 +847,17 @@
 				(rectangle
 					(start 3.81 -2.413)
 					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -945,6 +967,42 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2360,6 +2418,12 @@
 		(uuid "e5b13cc3-0cc5-461a-91a7-39f7afd92e99")
 	)
 	(junction
+		(at 158.75 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb565ae9-8432-4e08-87d7-2e3ac1d5f18d")
+	)
+	(junction
 		(at 158.75 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3083,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 124.46) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e64f8a-e02a-43fe-82bb-adb3bd97659d")
+	)
+	(wire
+		(pts
 			(xy 184.15 66.04) (xy 204.47 66.04)
 		)
 		(stroke
@@ -3183,17 +3257,17 @@
 	)
 	(global_label "PWM_A"
 		(shape input)
-		(at 115.57 88.9 180)
+		(at 128.27 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "05c4720a-9744-4806-a8d6-600410559a22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.3558 88.9 0)
+			(at 137.6656 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,23 +3275,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "PWM_B"
 		(shape input)
-		(at 115.57 91.44 180)
+		(at 128.27 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2170e016-1c21-4a8a-9211-12701093e741")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1744 91.44 0)
+			(at 137.6656 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3225,7 +3299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3351,17 +3425,17 @@
 	)
 	(global_label "PWM_D"
 		(shape input)
-		(at 128.27 91.44 0)
+		(at 115.57 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7b2fc0d8-16ea-421f-aa52-010316f91423")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.6656 91.44 0)
+			(at 106.3558 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3443,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3591,17 +3665,17 @@
 	)
 	(global_label "PWM_C"
 		(shape input)
-		(at 128.27 88.9 0)
+		(at 115.57 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dc797a89-4bfa-4e85-a6aa-4b52800f580a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.6656 88.9 0)
+			(at 106.1744 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +3683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4786,6 +4860,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33bcba3a-c3ce-4b36-be54-751bb17c9e11")
+		(property "Reference" "#PWR020"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.998 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d507dfe-bd75-4a50-a23d-dbc324460048")
+		)
+		(instances
+			(project "driver_bts7960_v1"
+				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Electronianos_Lib:BTS7960B")
 		(at 69.85 68.58 0)
 		(unit 1)
@@ -5515,98 +5666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 120.65 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6090fe8f-997b-4bff-b9dc-4f2d76bf38fb")
-		(property "Reference" "J3"
-			(at 121.92 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x03_Odd_Even"
-			(at 121.92 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
-			(at 120.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "200079fd-a5c1-4ff5-b13d-80b093b30853")
-		)
-		(pin "1"
-			(uuid "dbb98e3b-6197-491a-951a-ba879db47860")
-		)
-		(pin "2"
-			(uuid "bfdaad07-5d47-4007-9e71-d8dd5c47f52c")
-		)
-		(pin "5"
-			(uuid "9392f8de-8ff6-472a-85b0-f14473a45966")
-		)
-		(pin "6"
-			(uuid "2ab5192b-22a3-4425-8707-f9baa81e7d3c")
-		)
-		(pin "3"
-			(uuid "28170d2b-7ad1-4646-88c5-d4d7f15731f9")
-		)
-		(instances
-			(project "driver_bts7960_v1"
-				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Electronianos_Lib:BTS7960B")
 		(at 168.91 68.58 0)
 		(unit 1)
@@ -6099,6 +6158,83 @@
 			(project "driver_bts7960_v1"
 				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b356129-c1ce-409f-92a2-68fcc9bde0f1")
+		(property "Reference" "#PWR021"
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4de9fa-a494-475f-816c-a8859013543a")
+		)
+		(instances
+			(project "driver_bts7960_v1"
+				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7274,6 +7410,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cecd2c2f-0e51-4295-9daf-b49c66cf38a1")
+		(property "Reference" "#PWR019"
+			(at 158.75 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf6019e1-622c-475b-baa1-f3c155f0a1f8")
+		)
+		(instances
+			(project "driver_bts7960_v1"
+				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 116.84 49.53 0)
 		(unit 1)
@@ -7350,6 +7563,104 @@
 			(project "driver_bts7960_v1"
 				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 120.65 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d971a90c-3da6-4974-8489-7a77fbd75e21")
+		(property "Reference" "J3"
+			(at 121.92 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 121.92 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "50e8da4e-3fd7-426d-9e32-d387868c127e")
+		)
+		(pin "8"
+			(uuid "0eac94dd-89de-42be-878a-a60dda9584b1")
+		)
+		(pin "4"
+			(uuid "4f46453a-a10c-4a8d-93f9-ca768fd42d9d")
+		)
+		(pin "2"
+			(uuid "913fd046-ab24-4746-a816-f29cdf83c381")
+		)
+		(pin "3"
+			(uuid "c0809143-d3a4-4cc3-932b-e307493939d5")
+		)
+		(pin "5"
+			(uuid "b1399399-d9d2-46c7-b030-541849393a60")
+		)
+		(pin "1"
+			(uuid "82c0a170-3857-4a20-a0a1-c4a8bddf7d9a")
+		)
+		(pin "7"
+			(uuid "a0eb2613-a879-4ad5-9478-8fa9b9d7d320")
+		)
+		(instances
+			(project "driver_bts7960_v1"
+				(path "/8b514356-49e9-48fe-bce8-f536870f326a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
