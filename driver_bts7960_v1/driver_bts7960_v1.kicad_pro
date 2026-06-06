@@ -681,13 +681,13 @@
         "uuid": "742efa3c-2585-473f-9559-a4f38a1ea3b9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3,#PWR20-23",
     "variants": []
   },
   "sheets": [
     [
       "742efa3c-2585-473f-9559-a4f38a1ea3b9",
-      "driver_bts7960_v2"
+      "driver_bts7960_v1"
     ]
   ],
   "text_variables": {},
