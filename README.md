@@ -1,4 +1,4 @@
-# Driver BTS7960 Dual Channel Custom
+# TitanCore 7960: Driver BTS7960 Dual Channel Custom
 #### Buenas! Soy Aiden, y les quise escribir un pequeño texto para comentarles de este desarrollo que hice para mi robot y para la comunidad!
 
 ## Origen
