@@ -34,6 +34,47 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -50,6 +91,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(grid_origin 109.05 79.8)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_55555555)
@@ -3276,7 +3318,7 @@
 			(uuid "5c3ab0f5-99a8-478a-80aa-6f123b1a0ca2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/abril/OneDrive/Documents/GitHub/Robotitos/Electronianos_Lib.pretty/BTS7960B.step"
+		(model "C:/Users/abril/Documents/GitHub/TitanCore-7960/BTS7960B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4583,7 +4625,7 @@
 			(uuid "7a87d622-0480-47d5-9a75-d8e7f40e0f63")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/abril/OneDrive/Documents/GitHub/Robotitos/Electronianos_Lib.pretty/BTS7960B.step"
+		(model "C:/Users/abril/Documents/GitHub/TitanCore-7960/BTS7960B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5365,7 +5407,7 @@
 			(uuid "507ac2d3-406f-496f-b8d9-131aa87e93ab")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/abril/OneDrive/Documents/GitHub/Robotitos/Electronianos_Lib.pretty/BTS7960B.step"
+		(model "C:/Users/abril/Documents/GitHub/TitanCore-7960/BTS7960B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6040,7 +6082,7 @@
 			(uuid "e5bea551-c7ea-49bc-a10a-cd1f2eb9a654")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/abril/OneDrive/Documents/GitHub/Robotitos/Electronianos_Lib.pretty/BTS7960B.step"
+		(model "C:/Users/abril/Documents/GitHub/TitanCore-7960/BTS7960B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8086,6 +8128,17 @@
 			(uuid "c9afb10a-f964-4713-bab8-c8fb63109686")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
