@@ -3919,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 32.766 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30k"
 			(at 91.44 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4077,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30k"
 			(at 91.44 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "100nF"
 			(at 133.858 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,7 +4809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 137.16 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5318,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "100nF"
 			(at 134.874 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5555,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30k"
 			(at 91.44 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "100nF"
 			(at 133.858 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +6207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "100nF"
 			(at 134.874 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7165,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7321,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30k"
 			(at 91.44 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7618,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7699,7 +7699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 137.16 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8164,7 +8164,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 91.44 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
