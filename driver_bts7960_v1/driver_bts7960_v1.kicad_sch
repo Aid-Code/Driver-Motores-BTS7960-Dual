@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "742efa3c-2585-473f-9559-a4f38a1ea3b9")
 	(paper "A4")
+	(title_block
+		(title "TitanCore-7960 Dual Motor Driver")
+		(company "Aiden Maid Pérez")
+		(comment 1 "Licensed under CC BY-NC-SA 4.0")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC244"
 			(exclude_from_sim no)
@@ -2393,18 +2398,6 @@
 		)
 	)
 	(rectangle
-		(start 12.7 115.57)
-		(end 63.5 137.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "501fbe5d-5704-4791-9d02-a3d76eeb48c7")
-	)
-	(rectangle
 		(start 63.5 12.7)
 		(end 170.18 137.16)
 		(stroke
@@ -2492,9 +2485,9 @@
 		)
 		(uuid "aec0b353-b8c2-48a9-a3f2-c842d4f8074b")
 	)
-	(text "Designed by Aiden Maid Pérez - 2026\nCC BY-NC-SA 4.0"
+	(text "(c) 2026 Aiden Maid Pérez - CC BY-NC-SA 4.0"
 		(exclude_from_sim no)
-		(at 14.224 133.096 0)
+		(at 112.522 139.446 0)
 		(effects
 			(font
 				(size 1.524 1.524)
