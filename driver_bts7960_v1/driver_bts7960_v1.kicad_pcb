@@ -91,7 +91,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 109.05 79.8)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_55555555)
